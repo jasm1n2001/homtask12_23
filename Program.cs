@@ -98,7 +98,7 @@
 // }
 
 // task7
-//     int n = int.Parse(Console.ReadLine());
+//   int n = int.Parse(Console.ReadLine());
 // int[] arr = new int[n];
 // // int sum=0;
 // int cnt=0;
@@ -112,4 +112,104 @@
 // }
 // System.Console.WriteLine($"{cnt}");
 
+
+// task8
+
+// int n = int.Parse(Console.ReadLine());
+
+// int [] arr = new int [n];
+// for(int i=0; i<n; i++ )
+// {
+//     arr[i] = int.Parse(Console.ReadLine());
+// }
+// for(int i = 0; i<n; i++)
+// Array.Sort(arr);
+// Array.Reverse(arr);
+// for(int i = 0; i < n; i++)
+// {
+//     System.Console.WriteLine($"{arr[i]}");
+// }
+
+// task9
+
+// int n = int.Parse(Console.ReadLine());
+// int cnt = 0;
+
+// int [] arr = new int [n];
+// for(int i=0; i<n; i++ )
+// {
+//     arr[i] = int.Parse(Console.ReadLine());
+// }
+// for(int i = 0; i < n-1; i++)
+// {
+//     if(arr[i] > arr[i+1]) cnt++;
+// }
+// System.Console.WriteLine($"{cnt}");
+
+// task10
+
+// int n = int.Parse(Console.ReadLine());
+// int[] arr = new int[n];
+//  int minn = 99999;
+// for(int i=0; i<n; i++)
+// {
+//     arr[i]=int.Parse(Console.ReadLine());
+// }
+// Array.Sort(arr);
+// for(int i=0; i<n-1; i++)
+// {
+//     if(arr[i]<minn)minn=arr[i];
+// }
+// System.Console.WriteLine($"{minn}");
+
+// task11
+
+// int n = int.Parse(Console.ReadLine());
+// int[] arr = new int[n];
+//  int maxx = -99999;
+// for(int i=0; i<n; i++)
+// {
+//     arr[i]=int.Parse(Console.ReadLine());
+// }
+// Array.Sort(arr);
+// for(int i=0; i<n-1; i++)
+// {
+//     if(arr[i]<maxx)maxx=arr[i];
+// }
+// System.Console.WriteLine($"{maxx}");
+
+// task12
+
+// int n = int.Parse(Console.ReadLine());
+// int a = int.Parse(Console.ReadLine());
+// int[] arr = new int[n];
+// int cnt=0;
+// for(int i=0; i<n; i++)
+// {
+//     arr[i]=int.Parse(Console.ReadLine());
+// }
+
+// for(int i=0; i<n-1; i++)
+// {
+//     if(arr[i]== a)cnt++;
+// }
+// System.Console.WriteLine($"{cnt}");
+
+// task13
+
+// int n = int.Parse(Console.ReadLine());
+// int a = int.Parse(Console.ReadLine());
+// int[] arr = new int[n];
+// int cnt=0;
+// for(int i=0; i<n; i++)
+// {
+//     arr[i]=int.Parse(Console.ReadLine());
+// }
+
+// for(int i=0; i<n-1; i++)
+// {
+//     if(arr[i]== a)cnt++;
+// }
+// if(cnt>0)
+// System.Console.WriteLine($"Yes");
 
